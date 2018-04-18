@@ -69,6 +69,7 @@ def main():
 def mutate_point(point):
     point.y = 77
 
+
 # ----------------------------------------------------------------------
 # If this module is running at the top level (as opposed to being
 # imported by another module), then call the 'main' function.

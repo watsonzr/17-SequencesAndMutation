@@ -201,7 +201,7 @@ def MUTATE_replace_negatives_by_zeros(numbers):
     for i in range(len(numbers)):
         if numbers[i] < 0:
             numbers[i] = 0
-            
+
 
 # ----------------------------------------------------------------------
 # If this module is running at the top level (as opposed to being

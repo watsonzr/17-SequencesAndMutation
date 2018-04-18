@@ -13,11 +13,11 @@ Of course, these are not the only patterns, and some problems require
 combining these patterns, but this is a good base upon which to build.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Zack Watson.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 # ----------------------------------------------------------------------
-# TODO: 2. SKIM the program below and RUN it.
+# DONE: 2. SKIM the program below and RUN it.
 #
 #   Then look more closely at the CODE for:
 #     -- find_example1
@@ -36,7 +36,7 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 #     -- TWO-PLACES-AT-ONCE, and
 #     -- TWO-SEQUENCES-IN-PARALLEL
 #   then:
-#      change the above TODO to DONE.
+#      change the above TO DO to DONE.
 # ----------------------------------------------------------------------
 
 import math
@@ -230,7 +230,7 @@ def other_ranges(sequence):
     # ------------------------------------------------------------------
     last = len(sequence) - 1
     m = last
-    for k in range(len(sequence) // 3):
+    for _ in range(len(sequence) // 3):
         print(sequence[m])
         m = m - 3
 
@@ -492,6 +492,7 @@ def two_sequences_in_parallel(sequence1, sequence2):
             count = count + 1
 
     return count
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
